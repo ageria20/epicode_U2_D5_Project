@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+
+.menuCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin-inline: auto;
+}
+
+.menuCont ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 2rem;
+}
+
+.menuCont ul li button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.heroCont {
+  font-family: "Spectral", sans-serif;
+  background-color: #ffc017;
+  width: 100%;
+  min-height: 50vh;
+  border-bottom: 1px solid black;
+}
+
+.hero {
+  width: 65%;
+  padding-top: 5rem;
+  margin-inline: auto;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.hero p {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  width: 35rem;
+}
+
+.hero button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 10rem;
+  padding: 0.7rem;
+  border-radius: 2rem;
+}
+
+main {
+  width: 100%;
+  min-height: 50vh;
+}
+
+.int {
+  font-family: "Spectral", sans-serif;
+  width: 65%;
+  margin-inline: auto;
+  padding-top: 2rem;
+}
+
+.articleCont {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 65%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+  margin-inline: auto;
+}
+
+.subArtCont {
+  display: flex;
+  width: 35%;
+  margin: 1rem;
+  position: relative;
+}
+
+.article {
+  width: 27%;
+  margin: 1.2rem;
+  position: relative;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.article img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.article h2 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0.5rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(107, 107, 107);
+}
+
+.readTime {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(170, 170, 170);
+}
+
+.num {
+  font-family: "ROboto", sans-serif;
+  float: left;
+  padding-top: 1rem;
+  opacity: 0.5;
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(107, 107, 107);
+}
