@@ -186,6 +186,7 @@ main {
   align-items: flex-end;
   gap: 15px;
   width: 60%;
+  flex-grow: 1;
   margin-inline: auto;
 }
 .article2 {
@@ -259,12 +260,11 @@ main {
 
 .filter {
   width: 50%;
+  height: 20vh;
   margin-top: 4rem;
-  margin-inline: auto;
   text-align: center;
+  top: 130px;
   position: sticky;
-  top: 20px;
-  overflow: scroll;
 }
 
 .filter h2 {
